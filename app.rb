@@ -9,7 +9,7 @@ require_relative 'config/environment'
 	  end
 
 
-	  get '/create_puppy' do
+	  get '/new' do
 	    erb :create_puppy
 	  end
 
